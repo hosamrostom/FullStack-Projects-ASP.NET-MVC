@@ -1,0 +1,54 @@
+﻿@model List<console_controle.Models.CandidateAssessmentResult>
+
+<h2>نتائج تقييم المرشحين</h2>
+
+<!-- فورم لاختيار المرشح -->
+<form method="get">
+    <label for="candidateId">اختر مرشحًا:</label>
+    <select id="candidateId" name="candidateId" class="form-control" onchange="this.form.submit()">
+        <option value="">-- اختر مرشحًا --</option>
+        @foreach (var candidate in ViewBag.Candidates)
+        {
+            <option value="@candidate.Value" selected="@(ViewContext.HttpContext.Request.Query["candidateId"] == candidate.Value ? "selected" : null)">
+                @candidate.Text
+            </option>
+        }
+    </select>
+</form>
+
+<br />
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>التقييم الكلي</th>
+                <th>التاريخ</th>
+                <th>التعليق</th>
+                <th>نقاط القوة</th>
+                <th>الفرص</th>
+                <th>نقاط الضعف</th>
+                <th>التهديدات</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var result in Model)
+            {
+                <tr>
+                    <td>@result.TotalScore</td>
+                    <td>@result.DateSubmitted.ToShortDateString()</td>
+                    <td>@result.Comment</td>
+                    <td>@string.Join(", ", result.Strengths ?? new List<string>())</td>
+                    <td>@string.Join(", ", result.Opportunities ?? new List<string>())</td>
+                    <td>@string.Join(", ", result.Weaknesses ?? new List<string>())</td>
+                    <td>@string.Join(", ", result.Threats ?? new List<string>())</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>لا يوجد تقييمات لهذا المرشح.</p>
+}

@@ -1,0 +1,381 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Migrations\\20250426031842_Ine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:console controle\\Migrations\\20250426031842_Ine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\views\\home\\candidateslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\views\\home\\candidateslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\models\\hiringmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\models\\hiringmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\models\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\models\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\models\\combinedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\models\\combinedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\models\\candidateassessmentresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\models\\candidateassessmentresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\views\\home\\_candidateassessmentresult.cshtml.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\views\\home\\_candidateassessmentresult.cshtml.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\console controle.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\console controle.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\models\\submitassessmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\models\\submitassessmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|c:\\users\\hosam\\source\\repos\\johnson controls\\console controle\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9A8F30C-4181-4D21-A6FA-25D79C32301F}|console controle\\console controle.csproj|solutionrelative:console controle\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250426031842_Ine.cs",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Migrations\\20250426031842_Ine.cs",
+              "RelativeDocumentMoniker": "console controle\\Migrations\\20250426031842_Ine.cs",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Migrations\\20250426031842_Ine.cs",
+              "RelativeToolTip": "console controle\\Migrations\\20250426031842_Ine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T03:18:43.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "console controle\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "console controle\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAmwLUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T02:38:26.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "console controle\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "console controle\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T02:38:22.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "console controle\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "console controle\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwCQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-14T12:30:34.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "console controle\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Properties\\launchSettings.json",
+              "RelativeToolTip": "console controle\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T12:18:36.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Program.cs",
+              "RelativeDocumentMoniker": "console controle\\Program.cs",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Program.cs",
+              "RelativeToolTip": "console controle\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:13:59.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\appsettings.json",
+              "RelativeDocumentMoniker": "console controle\\appsettings.json",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\appsettings.json",
+              "RelativeToolTip": "console controle\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T12:13:48.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "console controle\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "console controle\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAkwCIBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T09:57:00.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "console controle\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "console controle\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T15:34:35.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Models\\Candidate.cs",
+              "RelativeDocumentMoniker": "console controle\\Models\\Candidate.cs",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Models\\Candidate.cs",
+              "RelativeToolTip": "console controle\\Models\\Candidate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T00:59:56.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CandidatesList.cshtml",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Views\\Home\\CandidatesList.cshtml",
+              "RelativeDocumentMoniker": "console controle\\Views\\Home\\CandidatesList.cshtml",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Views\\Home\\CandidatesList.cshtml",
+              "RelativeToolTip": "console controle\\Views\\Home\\CandidatesList.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T15:37:29.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HiringManager.cs",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Models\\HiringManager.cs",
+              "RelativeDocumentMoniker": "console controle\\Models\\HiringManager.cs",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Models\\HiringManager.cs",
+              "RelativeToolTip": "console controle\\Models\\HiringManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T16:30:03.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CombinedViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Models\\CombinedViewModel.cs",
+              "RelativeDocumentMoniker": "console controle\\Models\\CombinedViewModel.cs",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Models\\CombinedViewModel.cs",
+              "RelativeToolTip": "console controle\\Models\\CombinedViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T16:30:12.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "console controle\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "console controle\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T11:36:31.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CandidateAssessmentResult.cs",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Models\\CandidateAssessmentResult.cs",
+              "RelativeDocumentMoniker": "console controle\\Models\\CandidateAssessmentResult.cs",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Models\\CandidateAssessmentResult.cs",
+              "RelativeToolTip": "console controle\\Models\\CandidateAssessmentResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T15:52:40.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "console controle",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\console controle.csproj",
+              "RelativeDocumentMoniker": "console controle\\console controle.csproj",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\console controle.csproj",
+              "RelativeToolTip": "console controle\\console controle.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-14T11:12:15.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_CandidateAssessmentResult.cshtml.cshtml",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Views\\Home\\_CandidateAssessmentResult.cshtml.cshtml",
+              "RelativeDocumentMoniker": "console controle\\Views\\Home\\_CandidateAssessmentResult.cshtml.cshtml",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Views\\Home\\_CandidateAssessmentResult.cshtml.cshtml",
+              "RelativeToolTip": "console controle\\Views\\Home\\_CandidateAssessmentResult.cshtml.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T01:03:12.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "console controle\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "console controle\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAADwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-16T15:01:38.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "console controle\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "console controle\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T15:02:22.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SubmitAssessmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Models\\SubmitAssessmentViewModel.cs",
+              "RelativeDocumentMoniker": "console controle\\Models\\SubmitAssessmentViewModel.cs",
+              "ToolTip": "C:\\Users\\HOSAM\\source\\repos\\Johnson Controls\\console controle\\Models\\SubmitAssessmentViewModel.cs",
+              "RelativeToolTip": "console controle\\Models\\SubmitAssessmentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T09:58:12.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+﻿@model SubmitAssessmentViewModel
+
+@{
+    ViewData["Title"] = "Submit Assessment for " + Model.Candidate.Name;
+}
+
+<h2>Submit Assessment for @Model.Candidate.Name</h2>
+
+<div class="card">
+    <div class="card mb-4">
+        <div class="card-body">
+            <h2 class="card-title">Candidate Information</h2>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <p class="text-muted mb-1">Candidate Name</p>
+                    <p class="fw-bold">@Model.Candidate.Name</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-muted mb-1">Position</p>
+                    <p class="fw-bold">@Model.Candidate.Position</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-muted mb-1">Department</p>
+                    <p class="fw-bold">@Model.Candidate.Department</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-muted mb-1">Hiring Manager</p>
+                    <p class="fw-bold">@Model.Candidate.HiringManager?.Name</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rating Scale -->
+    <div class="alert alert-primary mb-4" role="alert">
+        <h3 class="alert-heading">Rating Scale</h3>
+        <div class="row g-3">
+            <div class="col-md-3">1: Poor</div>
+            <div class="col-md-3">2: Below Expectation</div>
+            <div class="col-md-3">3: Meets Expectation</div>
+            <div class="col-md-3">4: Exceeds Expectation</div>
+        </div>
+    </div>
+    <form method="post" action="@Url.Action("SubmitAssessment", "Home", new { candidateId = Model.Candidate.Id })">
+        <h4>Assessment Values</h4>
+        @foreach (var assessmentValue in Model.AssessmentValues)
+        {
+            <div class="mb-3">
+                <label class="form-label">@assessmentValue.Value</label>
+                <div class="d-flex gap-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="assessment_@assessmentValue.Id" value="1">
+                        <label class="form-check-label">1</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="assessment_@assessmentValue.Id" value="2">
+                        <label class="form-check-label">2</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="assessment_@assessmentValue.Id" value="3">
+                        <label class="form-check-label">3</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="assessment_@assessmentValue.Id" value="4">
+                        <label class="form-check-label">4</label>
+                    </div>
+                </div>
+            </div>
+            
+
+                <!-- Modal for Competency Assessment Guide -->
+                <div class="text-end">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#competencyModal_@assessmentValue.Id">
+                        Open Competency Modal
+                    </button>
+                </div>
+
+                <!-- Competency Modal -->
+                <div class="modal fade" id="competencyModal_@assessmentValue.Id" tabindex="-1" aria-labelledby="competencyModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title d-flex align-items-center" id="competencyModalLabel">
+                                    <i class="bi bi-question-circle icon-help"></i>
+                                    Competency Assessment Guide
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="mb-4">
+                                    <h6 class="fw-bold">Interview Questions:</h6>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">@assessmentValue.Question?.TextQ</li>
+                                        <li class="list-group-item">@assessmentValue.Question?.SubQuestion</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h6 class="fw-bold">Grading Criteria:</h6>
+                                    <div class="mb-3 p-3 bg-danger text-white rounded">
+                                        <strong>Below Expectations (1-2):</strong>
+                                        <p class="mb-0">@assessmentValue.Question?.Level1_2</p>
+                                    </div>
+                                    <div class="mb-3 p-3 bg-warning text-dark rounded">
+                                        <strong>Meets Expectations (3):</strong>
+                                        <p class="mb-0">@assessmentValue.Question?.Level3</p>
+                                    </div>
+                                    <div class="p-3 bg-success text-white rounded">
+                                        <strong>Exceeds Expectations (4):</strong>
+                                        <p class="mb-0">@assessmentValue.Question?.Level4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        }
+
+        <!-- Comments Section -->
+        <div class="mb-3">
+            <label for="comment" class="form-label">Comments</label>
+            <textarea id="comment" name="comment" class="form-control" rows="4" placeholder="Add your comments..."></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary w-100">Submit Assessment</button>
+    </form>
+</div>
+<p>@ViewBag.Message</p>

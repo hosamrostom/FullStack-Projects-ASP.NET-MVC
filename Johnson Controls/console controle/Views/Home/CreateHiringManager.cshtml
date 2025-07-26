@@ -1,0 +1,40 @@
+@model console_controle.Models.HiringManager
+
+    @{
+        ViewData["Title"] = "Create Hiring Manager";
+    }
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewData["Title"]</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">Create Hiring Manager</h2>
+            <form asp-action="CreateHiringManager" method="post" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label">Hiring Manager Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter hiring manager name" required />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label">Hiring Manager Email</label>
+                    <input asp-for="Email" class="form-control" placeholder="Enter hiring manager email" required />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Create Hiring Manager</button>
+                </div>
+            </form>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
