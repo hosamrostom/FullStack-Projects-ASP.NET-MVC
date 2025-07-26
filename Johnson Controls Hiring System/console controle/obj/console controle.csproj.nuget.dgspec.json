@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HOSAM\\Downloads\\Johnson Controls\\console controle\\console controle.csproj": {}
+    "C:\\Users\\HOSAM\\Documents\\GitHub\\FullStack-Projects-ASP.NET-MVC\\Johnson Controls Hiring System\\console controle\\console controle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HOSAM\\Downloads\\Johnson Controls\\console controle\\console controle.csproj": {
+    "C:\\Users\\HOSAM\\Documents\\GitHub\\FullStack-Projects-ASP.NET-MVC\\Johnson Controls Hiring System\\console controle\\console controle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HOSAM\\Downloads\\Johnson Controls\\console controle\\console controle.csproj",
+        "projectUniqueName": "C:\\Users\\HOSAM\\Documents\\GitHub\\FullStack-Projects-ASP.NET-MVC\\Johnson Controls Hiring System\\console controle\\console controle.csproj",
         "projectName": "console controle",
-        "projectPath": "C:\\Users\\HOSAM\\Downloads\\Johnson Controls\\console controle\\console controle.csproj",
+        "projectPath": "C:\\Users\\HOSAM\\Documents\\GitHub\\FullStack-Projects-ASP.NET-MVC\\Johnson Controls Hiring System\\console controle\\console controle.csproj",
         "packagesPath": "C:\\Users\\HOSAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HOSAM\\Downloads\\Johnson Controls\\console controle\\obj\\",
+        "outputPath": "C:\\Users\\HOSAM\\Documents\\GitHub\\FullStack-Projects-ASP.NET-MVC\\Johnson Controls Hiring System\\console controle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
